@@ -757,6 +757,38 @@ you last longer? For an affordable, effective,
       </div>
       
       </div>
+             <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11072451711"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11072451711');
+</script>
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11072451711/ip_-CPWngokYEP_o4J8p',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<script>
+var conversionFunc = function() {
+  window.edit_page.Event.subscribe('Site.contactForm.submit', function() {
+    gtag_report_conversion("https://solution-to-prostate.netlify.app/thank")
+  });
+};
+  
+_strk.push(['Page.didMount', conversionFunc]);  
+</script>
+
       
       </footer>
       
